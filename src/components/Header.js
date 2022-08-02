@@ -21,7 +21,7 @@ function Header() {
                     </ul>
                 </NavMenu>
                 <RightNav>
-                    <input placeholder="Search" onClick={increaseWidth}></input>
+                    <input placeholder="Search" className='searchbox'></input>
                     <button>Subscribe</button>
                     <div className="btn">Login</div>
                 </RightNav>
@@ -84,9 +84,13 @@ const NavMenu = styled.div`
             }
         }
     }
-    
 `
 const RightNav = styled.div`
+    .searchbox:focus{
+        width: 350px;
+        border-color: #1f80e0;
+        transition: 0.5s;
+    }
     .btn{
         font-weight: 500;
         text-transform: uppercase;
@@ -111,6 +115,7 @@ const RightNav = styled.div`
             font-size: 15px;
         }
     }
+
     button{
         background-color: #1f80e0;
         cursor: pointer;
@@ -124,3 +129,4 @@ const RightNav = styled.div`
         line-height: 19px;
     }            
 `
+
