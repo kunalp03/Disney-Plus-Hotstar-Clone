@@ -17,13 +17,13 @@ function ImageSlider() {
         <Container>
             <Carousel {...settings}>
                 <Wrap>
-                    <img src="/images/sponser.jpg"/>
+                    <img src="/images/sponser.jpg" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="/images/slider-badging.jpg"/>
+                    <img src="/images/slider-badging.jpg" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="/images/slider-badag.jpg"/>
+                    <img src="/images/slider-badag.jpg" alt=""/>
                 </Wrap>
             </Carousel>
         </Container>

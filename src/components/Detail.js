@@ -5,10 +5,10 @@ function Detail() {
   return (
     <Container>
         <Background>
-            <img src='https://i.ytimg.com/vi/Pwe_va9hPH0/maxresdefault.jpg'/>
+            <img src='https://i.ytimg.com/vi/Pwe_va9hPH0/maxresdefault.jpg' alt=""/>
         </Background>
         <ImageTitle>
-            <img src=''/>
+            <img src='' alt=""/>
         </ImageTitle>
     </Container>
   )

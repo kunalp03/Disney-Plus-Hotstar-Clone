@@ -7,28 +7,28 @@ function Movies() {
             <h4>Latest & Trending</h4>
             <Content>
                 <Wrap>
-                    <img src='/images/good-luck.jpg' />
+                    <img src='/images/good-luck.jpg' alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src='/images/CIVIL-SERVANT.jpg' />
+                    <img src='/images/CIVIL-SERVANT.jpg' alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src='/images/Ghar-Wapsi.jpg' />
+                    <img src='/images/Ghar-Wapsi.jpg' alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src='/images/Parampara.jpg' />
+                    <img src='/images/Parampara.jpg' alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src='/images/shoorveer.jpg' />
+                    <img src='/images/shoorveer.jpg' alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src='/images/vikram.jpg' />
+                    <img src='/images/vikram.jpg' alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src='/images/mom.jpg' />
+                    <img src='/images/mom.jpg' alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src='/images/marvel.jpg' />
+                    <img src='/images/marvel.jpg' alt=""/>
                 </Wrap>
             </Content>
         </Container>
