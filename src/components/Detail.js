@@ -7,6 +7,9 @@ function Detail() {
         <Background>
             <img src='https://i.ytimg.com/vi/Pwe_va9hPH0/maxresdefault.jpg'/>
         </Background>
+        <ImageTitle>
+            <img src=''/>
+        </ImageTitle>
     </Container>
   )
 }
@@ -32,5 +35,8 @@ const Background = styled.div `
         height: 100%;
         object-fit: cover;
     }
+
+`
+const ImageTitle = styled.div `
 
 `

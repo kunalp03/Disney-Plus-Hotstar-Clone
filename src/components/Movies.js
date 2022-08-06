@@ -39,7 +39,11 @@ export default Movies
 
 const Container = styled.div`
     margin-left: 20px;
-
+    h4{
+        font-size: 20px;
+        cursor: pointer;
+        display: inline-block;
+    }
 `
 const Content = styled.div`
     display: grid;

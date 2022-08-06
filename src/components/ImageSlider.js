@@ -17,6 +17,9 @@ function ImageSlider() {
         <Container>
             <Carousel {...settings}>
                 <Wrap>
+                    <img src="/images/sponser.jpg"/>
+                </Wrap>
+                <Wrap>
                     <img src="/images/slider-badging.jpg"/>
                 </Wrap>
                 <Wrap>

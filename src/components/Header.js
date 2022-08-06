@@ -3,9 +3,6 @@ import styled from 'styled-components'
 import MenuIcon from '@mui/icons-material/Menu';
 
 function Header() {
-    function increaseWidth(e){
-        // e.target.styled.input.wid 
-    }
     return (
         <>
             <Nav>
